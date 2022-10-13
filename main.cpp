@@ -7,5 +7,13 @@
 using namespace std;
 
 int main() {
+  //set up arrays
+  double resistance[5] = {16, 27, 39, 56, 81};
+  double currents[5];
+  double power[5];
+
+  //variable for total
+  double total;
+
   
 }
