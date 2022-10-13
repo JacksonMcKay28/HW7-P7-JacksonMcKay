@@ -8,12 +8,14 @@ using namespace std;
 
 int main() {
   //set up arrays
-  double resistance[5] = {16, 27, 39, 56, 81};
+  const int R = 5;
+  double resistance[R] = {16, 27, 39, 56, 81};
   double currents[5];
   double power[5];
 
   //variable for total
   double total;
 
-  
+  //for loop to ask for currents
+  for 
 }
