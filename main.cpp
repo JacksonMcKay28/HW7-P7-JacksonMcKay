@@ -27,10 +27,10 @@ int main() {
 
   //formatting the table
   //headers with 20 spaces from start of word to start of next
-  cout << "Resistance          Current             Power" << endl;
+  cout << "Resistance        Current           Power" << endl;
   //for loop to lay out all of the values from arrays
   for (int i = 0; i < 5; i++) 
   {
-    cout << resistance[i] << setw(20) << currents[i] << setw(15) << power[i];  
+    cout << resistance[i] << setw(19) << currents[i] << setw(20) << power[i] << endl;  
   }
 }
