@@ -28,9 +28,16 @@ int main() {
   //formatting the table
   //headers with 20 spaces from start of word to start of next
   cout << "Resistance        Current           Power" << endl;
+  
   //for loop to lay out all of the values from arrays
   for (int i = 0; i < 5; i++) 
   {
     cout << resistance[i] << setw(19) << currents[i] << setw(20) << power[i] << endl;  
   }
+ 
+  //calculating total and stating
+  total = power[0] + power[1] + power[2] + power[3] + power[4];
+  cout << "The total of the powers is: " << total << " W";
+
+  return 0;
 }
